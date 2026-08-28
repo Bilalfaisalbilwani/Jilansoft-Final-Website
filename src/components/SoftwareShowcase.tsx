@@ -123,8 +123,8 @@ export default function SoftwareShowcase() {
   };
 
   const getWhatsAppLink = (productName: string) => {
-    const message = `Hi JilanSoft! I'm interested in getting a custom licensing quotation and implementation plan for ${productName}. Could you connect me with an enterprise system architect?`;
-    return `https://wa.me/923000000000?text=${encodeURIComponent(message)}`;
+    const message = `Hi Jilansoft! I'm interested in getting a custom licensing quotation and implementation plan for ${productName}. Could you connect me with an enterprise system architect?`;
+    return `https://wa.me/923315424466?text=${encodeURIComponent(message)}`;
   };
 
   return (

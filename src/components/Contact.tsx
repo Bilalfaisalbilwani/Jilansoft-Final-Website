@@ -524,7 +524,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                       type="text"
                       value={estimatedBudget}
                       onChange={(e) => setEstimatedBudget(e.target.value)}
-                      placeholder="e.g. $1,000 - $3,000 / PKR Budget"
+                      placeholder="e.g. $3,000 / PKR Budget"
                       className={`w-full rounded-lg px-4 py-3 text-sm outline-none border transition-all duration-200 ${theme === 'light'
                         ? 'bg-white border-slate-300 text-slate-800 placeholder-slate-400 focus:border-blue-500 focus:bg-blue-500/5 focus:ring-2 focus:ring-blue-500/20'
                         : 'bg-white/4 border-white/10 text-white placeholder-[#6B6590] focus:border-purple-500/50 focus:bg-[#7C3AED]/5 focus:ring-2 focus:ring-[#7C3AED]/20'
@@ -542,7 +542,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                       type="text"
                       value={expectedTimeline}
                       onChange={(e) => setExpectedTimeline(e.target.value)}
-                      placeholder="e.g. 2-4 weeks, Immediate"
+                      placeholder="e.g. 2 weeks"
                       className={`w-full rounded-lg px-4 py-3 text-sm outline-none border transition-all duration-200 ${theme === 'light'
                         ? 'bg-white border-slate-300 text-slate-800 placeholder-slate-400 focus:border-blue-500 focus:bg-blue-500/5 focus:ring-2 focus:ring-blue-500/20'
                         : 'bg-white/4 border-white/10 text-white placeholder-[#6B6590] focus:border-purple-500/50 focus:bg-[#7C3AED]/5 focus:ring-2 focus:ring-[#7C3AED]/20'

@@ -26,9 +26,9 @@ interface FaqItem {
 const FAQ_DATA: FaqItem[] = [
   {
     category: 'Services',
-    question: 'What services does JilanSoft provide?',
+    question: 'What services does Jilansoft provide?',
     answer:
-      'JilanSoft provides web development, e-commerce development, ready-made business software, custom software development, website and software modification, business consultation, business analysis, and project management services.'
+      'Jilansoft provides web development, e-commerce development, ready-made business software, custom software development, website and software modification, business consultation, business analysis, and project management services.'
   },
 
   {
@@ -91,12 +91,12 @@ const FAQ_DATA: FaqItem[] = [
     category: 'General',
     question: 'Do you work with clients outside Pakistan?',
     answer:
-      'Yes. JilanSoft is ready to work with clients in Pakistan as well as international clients and can provide web, software, e-commerce, and consulting services remotely.'
+      'Yes. Jilansoft is ready to work with clients in Pakistan as well as international clients and can provide web, software, e-commerce, and consulting services remotely.'
   },
 
   {
     category: 'General',
-    question: 'How can I contact JilanSoft?',
+    question: 'How can I contact Jilansoft?',
     answer:
       'You can contact us through WhatsApp, email, or our contact form. Share your requirements with us and we will review your project and get back to you.'
   },

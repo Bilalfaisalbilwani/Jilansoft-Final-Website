@@ -83,19 +83,19 @@ export default function PortfolioPage() {
         '@type': 'WebPage',
         '@id': 'https://jilansoft.com/portfolio#webpage',
         url: 'https://jilansoft.com/portfolio',
-        name: 'Web Development Portfolio | JilanSoft',
+        name: 'Web Development Portfolio | Jilansoft',
         description:
-          'Explore websites, e-commerce projects, business websites, portfolio websites, and custom web solutions developed by JilanSoft.',
+          'Explore websites, e-commerce projects, business websites, portfolio websites, and custom web solutions developed by Jilansoft.',
         isPartOf: {
           '@type': 'WebSite',
-          name: 'JilanSoft',
+          name: 'Jilansoft',
           url: 'https://jilansoft.com/',
         },
       },
 
       {
         '@type': 'ItemList',
-        name: 'JilanSoft Web Development Portfolio',
+        name: 'Jilansoft Web Development Portfolio',
         numberOfItems: portfolioProjects.length,
         itemListElement: portfolioProjects.map((project, index) => ({
           '@type': 'ListItem',
@@ -122,8 +122,8 @@ export default function PortfolioPage() {
   return (
     <>
       <SEO
-        title="Web Development Portfolio | JilanSoft"
-        description="Explore JilanSoft's web development portfolio featuring business websites, restaurant websites, portfolio websites, e-commerce solutions, and custom web projects."
+        title="Web Development Portfolio | Jilansoft"
+        description="Explore Jilansoft's web development portfolio featuring business websites, restaurant websites, portfolio websites, e-commerce solutions, and custom web projects."
         canonical="/portfolio"
         jsonLd={portfolioJsonLd}
       />
@@ -167,7 +167,7 @@ export default function PortfolioPage() {
               }`}
             >
               Explore selected websites and digital solutions created by
-              JilanSoft for businesses, professionals, and organizations.
+              Jilansoft for businesses, professionals, and organizations.
             </p>
 
             {/* Category Filters */}
@@ -225,7 +225,7 @@ export default function PortfolioPage() {
 
                     <img
                       src={project.image}
-                      alt={`${project.name} - JilanSoft web development project`}
+                      alt={`${project.name} - Jilansoft web development project`}
                       loading="lazy"
                       decoding="async"
                       className="w-full h-auto block object-contain transition-transform duration-700 group-hover:scale-[1.02]"
@@ -342,7 +342,7 @@ export default function PortfolioPage() {
                     : 'text-slate-300'
                 }`}
               >
-                JilanSoft creates professional websites, e-commerce stores,
+                Jilansoft creates professional websites, e-commerce stores,
                 and custom web solutions tailored to your business needs.
               </p>
 

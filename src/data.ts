@@ -792,7 +792,7 @@ export const softwareProducts: SoftwareProduct[] = [
   //     'Integrated Bank Statement Reconciliation Portal'
   //   ],
   //   heroImage: product4,
-  //   overview: 'JilanFinAcc is JilanSoft’s premier, fully in-house developed enterprise accounting suite. Tailored to meet international audit regulations, JilanFinAcc simplifies complex corporate financials. It tracks bank transactions, registers expense journals, manages invoices, and generates professional financial reports with single-click ease. Built with highly secured offline capabilities, JilanFinAcc guarantees your crucial financial data is completely secure and accessible anywhere.',
+  //   overview: 'JilanFinAcc is Jilansoft’s premier, fully in-house developed enterprise accounting suite. Tailored to meet international audit regulations, JilanFinAcc simplifies complex corporate financials. It tracks bank transactions, registers expense journals, manages invoices, and generates professional financial reports with single-click ease. Built with highly secured offline capabilities, JilanFinAcc guarantees your crucial financial data is completely secure and accessible anywhere.',
   //   benefits: [
   //     {
   //       title: 'Tax Season Preparation in Minutes',

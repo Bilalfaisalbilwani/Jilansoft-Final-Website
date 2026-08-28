@@ -1,8 +1,9 @@
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import {
   Facebook,
+  Instagram,
   Linkedin,
-  Youtube,
+  // Youtube,
   Mail,
   Phone,
   MessageSquare,
@@ -24,18 +25,18 @@ const WhatsAppIcon = ({ size = 14 }: { size?: number }) => (
   </svg>
 );
 
-const PinterestIcon = ({ size = 14 }: { size?: number }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="currentColor"
-    aria-hidden="true"
-  >
-    <path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.775 2.169 2.128 0 3.765-2.244 3.765-5.479 0-2.861-2.056-4.86-4.991-4.86-3.399 0-5.395 2.549-5.395 5.184 0 1.027.395 2.13.888 2.73.097.118.11.221.082.338-.09.376-.291 1.186-.33 1.348-.052.217-.171.263-.395.158-1.474-.687-2.396-2.842-2.396-4.576 0-3.725 2.709-7.147 7.801-7.147 4.095 0 7.279 2.919 7.279 6.822 0 4.069-2.564 7.342-6.124 7.342-1.197 0-2.324-.622-2.71-1.357 0 0-.593 2.257-.738 2.812-.268 1.029-.993 2.319-1.479 3.111C9.016 23.774 10.468 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z" />
-  </svg>
-);
+// const PinterestIcon = ({ size = 14 }: { size?: number }) => (
+//   <svg
+//     xmlns="http://www.w3.org/2000/svg"
+//     width={size}
+//     height={size}
+//     viewBox="0 0 24 24"
+//     fill="currentColor"
+//     aria-hidden="true"
+//   >
+//     <path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.775 2.169 2.128 0 3.765-2.244 3.765-5.479 0-2.861-2.056-4.86-4.991-4.86-3.399 0-5.395 2.549-5.395 5.184 0 1.027.395 2.13.888 2.73.097.118.11.221.082.338-.09.376-.291 1.186-.33 1.348-.052.217-.171.263-.395.158-1.474-.687-2.396-2.842-2.396-4.576 0-3.725 2.709-7.147 7.801-7.147 4.095 0 7.279 2.919 7.279 6.822 0 4.069-2.564 7.342-6.124 7.342-1.197 0-2.324-.622-2.71-1.357 0 0-.593 2.257-.738 2.812-.268 1.029-.993 2.319-1.479 3.111C9.016 23.774 10.468 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z" />
+//   </svg>
+// );
 
 export default function Footer() {
   const location = useLocation();
@@ -85,7 +86,7 @@ export default function Footer() {
 
             <p className="text-slate-400 text-sm leading-relaxed max-w-[280px] mb-6 font-sans">
               From business software and ERP systems to websites and eCommerce
-              stores, JilanSoft provides technology solutions tailored to your
+              stores, Jilansoft provides technology solutions tailored to your
               businesses.
             </p>
 
@@ -118,7 +119,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://www.facebook.com/Jilansoft786/"
+                href="https://www.facebook.com/jilansoftofficial/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Follow us on Facebook"
@@ -126,8 +127,18 @@ export default function Footer() {
               >
                 <Facebook size={16} />
               </a>
-
+              
               <a
+                href="https://www.instagram.com/jilansoft/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Follow us on Instagram"
+                className="w-10 h-10 rounded-xl border border-white/10 bg-white/5 flex items-center justify-center text-slate-400 hover:text-[#E4405F] hover:border-[#E4405F]/30 hover:bg-[#E4405F]/10 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-[#0B0F19] cursor-pointer"
+              >
+                <Instagram size={16} />
+              </a>
+
+              {/* <a
                 href="https://www.pinterest.com/jilansoft/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -135,9 +146,9 @@ export default function Footer() {
                 className="w-10 h-10 rounded-xl border border-white/10 bg-white/5 flex items-center justify-center text-slate-400 hover:text-[#BD081C] hover:border-[#BD081C]/30 hover:bg-[#BD081C]/10 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-[#0B0F19] cursor-pointer"
               >
                 <PinterestIcon size={16} />
-              </a>
+              </a> */}
 
-              <a
+              {/* <a
                 href="https://www.youtube.com/channel/UCwekJuIXmcOfTh-nalQspwQ"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -145,10 +156,10 @@ export default function Footer() {
                 className="w-10 h-10 rounded-xl border border-white/10 bg-white/5 flex items-center justify-center text-slate-400 hover:text-[#FF0000] hover:border-[#FF0000]/30 hover:bg-[#FF0000]/10 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-[#0B0F19] cursor-pointer"
               >
                 <Youtube size={16} />
-              </a>
+              </a> */}
 
               <a
-                href="https://www.linkedin.com/company/jilansoft"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Connect with us on LinkedIn"
@@ -345,7 +356,7 @@ export default function Footer() {
         {/* Footer Bottom Metadata Row */}
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 text-xs text-slate-400 font-medium font-sans gap-4">
           <span>
-            © 2009–{new Date().getFullYear()} JilanSoft. All rights reserved.
+            © 2009–{new Date().getFullYear()} Jilansoft. All rights reserved.
           </span>
 
           <div className="flex items-center gap-1">

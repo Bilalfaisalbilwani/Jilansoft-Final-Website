@@ -38,16 +38,17 @@ export default function HomePage() {
         },
         'areaServed': ['Pakistan', 'Worldwide'],
         'sameAs': [
-          'https://www.linkedin.com/company/jilansoft',
-          'https://www.facebook.com/Jilansoft786/',
-          'https://youtube.com/@jilansoft'
+          'https://www.facebook.com/jilansoftofficial/',
+          'https://www.instagram.com/jilansoft/',
+          'https://www.linkedin.com/company/jilansoftofficial'
+          
         ]
       },
       {
         '@type': 'WebSite',
         '@id': 'https://jilansoft.com/#website',
         'url': 'https://jilansoft.com/',
-        'name': 'JilanSoft',
+        'name': 'Jilansoft',
         'description': 'Custom Software Development, ERP & Web Development Agency',
         'publisher': {
           '@id': 'https://jilansoft.com/#organization'
@@ -57,7 +58,7 @@ export default function HomePage() {
         '@type': 'WebPage',
         '@id': 'https://jilansoft.com/#webpage',
         'url': 'https://jilansoft.com/',
-        'name': 'JilanSoft | Custom Software Development, ERP & Web Development',
+        'name': 'Jilansoft | Custom Software Development, ERP & Web Development',
         'isPartOf': {
           '@id': 'https://jilansoft.com/#website'
         },
@@ -73,8 +74,8 @@ export default function HomePage() {
   return (
     <>
       <SEO
-        title="JilanSoft | Custom Software Development, ERP & Web Development"
-        description="JilanSoft is a custom software development agency offering web development, ERP systems, e-commerce solutions, and POS software for Pakistan & worldwide clients."
+        title="Jilansoft | Custom Software Development, ERP & Web Development"
+        description="Jilansoft is a custom software development agency offering web development, ERP systems, e-commerce solutions, and POS software for Pakistan & worldwide clients."
         canonical="/"
         jsonLd={homeJsonLd}
       />

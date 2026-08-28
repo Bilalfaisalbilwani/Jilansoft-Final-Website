@@ -36,10 +36,10 @@ export function ThemeProvider({
       }
 
       // New visitor → Dark by default
-      return 'dark';
+      return 'light';
     } catch (e) {
       // If localStorage is unavailable → Dark by default
-      return 'dark';
+      return 'light';
     }
   });
 

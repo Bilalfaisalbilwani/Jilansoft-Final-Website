@@ -10,7 +10,7 @@ export default function NotFoundPage() {
   return (
     <>
       <Helmet>
-        <title>404 - Page Not Found | JilanSoft</title>
+        <title>404 - Page Not Found | Jilansoft</title>
         <meta name="robots" content="noindex, follow" />
       </Helmet>
 

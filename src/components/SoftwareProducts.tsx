@@ -44,7 +44,7 @@ export default function Services() {
         'Portfolio Websites',
         'Responsive Website Development',
       ],
-      cta: 'Explore Web Solutions',
+      cta: 'Start Your Project',
       target: '/contact',
     },
 
@@ -60,7 +60,7 @@ export default function Services() {
         'Payment Integration',
         'Product & Store Setup',
       ],
-      cta: 'Explore E-commerce',
+      cta: 'Start Your Project',
       target: '/contact',
     },
 
@@ -76,7 +76,7 @@ export default function Services() {
         'Inventory Management',
         'Custom Business Applications',
       ],
-      cta: 'Discuss Your Software',
+      cta: 'Build Your Solution',
       target: '/contact',
     },
 

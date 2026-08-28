@@ -77,7 +77,7 @@ export default function WhyChooseUs() {
                 : 'bg-purple-500/10 text-purple-300 border border-purple-500/20'
             }`}
           >
-            Why JilanSoft
+            Why Jilansoft
           </div>
 
           <h2

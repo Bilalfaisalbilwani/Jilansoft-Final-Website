@@ -241,7 +241,7 @@ export default function About() {
                     : 'text-slate-400'
                     }`}
                 >
-                  JilanSoft provides practical business management systems covering areas such as accounting, inventory, point of sale (POS), distribution, manufacturing, human resources, payroll, attendance, and other operational requirements.
+                  Jilansoft provides practical business management systems covering areas such as accounting, inventory, point of sale (POS), distribution, manufacturing, human resources, payroll, attendance, and other operational requirements.
                 </p>
 
                 <p

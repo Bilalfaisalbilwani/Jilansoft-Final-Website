@@ -35,7 +35,7 @@ export default function WhatsAppWidget() {
   ];
 
   const handleSend = (text: string) => {
-    const encoded = encodeURIComponent(text || "Hello JilanSoft, I'm interested in your services.");
+    const encoded = encodeURIComponent(text || "Hello Jilansoft, I'm interested in your services.");
     window.open(`https://wa.me/${phone}?text=${encoded}`, '_blank', 'noopener,noreferrer');
     setIsOpen(false);
   };
@@ -61,7 +61,7 @@ export default function WhatsAppWidget() {
               </div>
               <div>
                 <h4 className="font-bold text-sm leading-tight flex items-center gap-1.5">
-                  JilanSoft Support
+                  Jilansoft Support
                   <Sparkles size={13} className="text-amber-300" />
                 </h4>
 

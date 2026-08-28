@@ -33,7 +33,7 @@ export default function SEO({
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content="https://jilansoft.com/favicon.svg" />
-      <meta property="og:site_name" content="JilanSoft" />
+      <meta property="og:site_name" content="Jilansoft" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />

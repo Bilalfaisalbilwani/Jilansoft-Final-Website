@@ -14,11 +14,11 @@ export default function ContactPage() {
         '@type': 'WebPage',
         '@id': 'https://jilansoft.com/contact#webpage',
         'url': 'https://jilansoft.com/contact',
-        'name': 'Contact Us & Project Inquiries | JilanSoft',
-        'description': 'Contact JilanSoft for custom software, accounting POS systems, school ERPs, and web development inquiries.',
+        'name': 'Contact Us & Project Inquiries | Jilansoft',
+        'description': 'Contact Jilansoft for custom software, accounting POS systems, school ERPs, and web development inquiries.',
         'isPartOf': {
           '@type': 'WebSite',
-          'name': 'JilanSoft',
+          'name': 'Jilansoft',
           'url': 'https://jilansoft.com/'
         }
       },
@@ -26,10 +26,10 @@ export default function ContactPage() {
         '@type': 'ContactPage',
         '@id': 'https://jilansoft.com/contact#contactpage',
         'url': 'https://jilansoft.com/contact',
-        'name': 'JilanSoft Contact & Project Inquiry',
+        'name': 'Jilansoft Contact & Project Inquiry',
         'mainEntity': {
           '@type': 'Organization',
-          'name': 'JilanSoft',
+          'name': 'Jilansoft',
           'telephone': '+923315424466',
           'email': 'jilansoft@gmail.com',
           'address': {
@@ -47,8 +47,8 @@ export default function ContactPage() {
   return (
     <>
       <SEO
-        title="Contact Us & Project Inquiries | JilanSoft"
-        description="Contact JilanSoft for custom software development, accounting POS systems, school ERPs, and web development inquiries. Phone: +92 331 5424466, Email: jilansoft@gmail.com."
+        title="Contact Us & Project Inquiries | Jilansoft"
+        description="Contact Jilansoft for custom software development, accounting POS systems, school ERPs, and web development inquiries. Phone: +92 331 5424466, Email: jilansoft@gmail.com."
         canonical="/contact"
         jsonLd={contactJsonLd}
       />
@@ -68,7 +68,7 @@ export default function ContactPage() {
             <h1 className={`text-3xl sm:text-5xl font-black tracking-tight leading-tight mb-4 max-w-3xl mx-auto ${
               isLight ? 'text-slate-950' : 'text-white'
             }`}>
-              Contact JilanSoft for Custom Software & Web Projects
+              Contact Jilansoft for Custom Software & Web Projects
             </h1>
 
             <p className={`text-base sm:text-lg max-w-2xl mx-auto leading-relaxed ${

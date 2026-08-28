@@ -53,7 +53,7 @@ export default function Navbar() {
         <nav aria-label="Main Navigation" className="flex items-center justify-between h-[72px] max-w-[1200px] mx-auto px-6">
           <Link
             to="/"
-            aria-label="JilanSoft Home"
+            aria-label="Jilansoft Home"
             className={`font-display text-2xl font-bold tracking-tight transition-colors duration-300 flex items-center gap-2 ${
               theme === 'light' ? 'text-[#0C0C14]' : 'text-white'
             }`}

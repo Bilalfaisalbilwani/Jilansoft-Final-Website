@@ -18,12 +18,12 @@ export default function ServicesPage() {
         '@type': 'WebPage',
         '@id': 'https://jilansoft.com/services#webpage',
         'url': 'https://jilansoft.com/services',
-        'name': 'Services | Web Development, E-commerce & Business Software | JilanSoft',
+        'name': 'Services | Web Development, E-commerce & Business Software | Jilansoft',
         'description':
-          'Explore JilanSoft services including web development, e-commerce development, ready-made business software, custom software development, website and software modification, business consultation, business analysis, and project management.',
+          'Explore Jilansoft services including web development, e-commerce development, ready-made business software, custom software development, website and software modification, business consultation, business analysis, and project management.',
         'isPartOf': {
           '@type': 'WebSite',
-          'name': 'JilanSoft',
+          'name': 'Jilansoft',
           'url': 'https://jilansoft.com/'
         }
       },
@@ -33,7 +33,7 @@ export default function ServicesPage() {
         'name': 'Web Development Services',
         'provider': {
           '@type': 'Organization',
-          'name': 'JilanSoft',
+          'name': 'Jilansoft',
           'url': 'https://jilansoft.com/'
         },
         'serviceType': 'Web Development',
@@ -46,7 +46,7 @@ export default function ServicesPage() {
         'name': 'E-commerce Development Services',
         'provider': {
           '@type': 'Organization',
-          'name': 'JilanSoft',
+          'name': 'Jilansoft',
           'url': 'https://jilansoft.com/'
         },
         'serviceType': 'E-commerce Development',
@@ -59,7 +59,7 @@ export default function ServicesPage() {
         'name': 'Ready-Made Business Software',
         'provider': {
           '@type': 'Organization',
-          'name': 'JilanSoft',
+          'name': 'Jilansoft',
           'url': 'https://jilansoft.com/'
         },
         'serviceType': 'Business Software',
@@ -72,7 +72,7 @@ export default function ServicesPage() {
         'name': 'Custom Software Development',
         'provider': {
           '@type': 'Organization',
-          'name': 'JilanSoft',
+          'name': 'Jilansoft',
           'url': 'https://jilansoft.com/'
         },
         'serviceType': 'Custom Software Development',
@@ -85,7 +85,7 @@ export default function ServicesPage() {
         'name': 'Website and Software Modification',
         'provider': {
           '@type': 'Organization',
-          'name': 'JilanSoft',
+          'name': 'Jilansoft',
           'url': 'https://jilansoft.com/'
         },
         'serviceType': 'Website and Software Modification',
@@ -98,7 +98,7 @@ export default function ServicesPage() {
         'name': 'Business Consultation',
         'provider': {
           '@type': 'Organization',
-          'name': 'JilanSoft',
+          'name': 'Jilansoft',
           'url': 'https://jilansoft.com/'
         },
         'serviceType': 'Business Consulting',
@@ -111,7 +111,7 @@ export default function ServicesPage() {
         'name': 'Business Analysis',
         'provider': {
           '@type': 'Organization',
-          'name': 'JilanSoft',
+          'name': 'Jilansoft',
           'url': 'https://jilansoft.com/'
         },
         'serviceType': 'Business Analysis',
@@ -124,7 +124,7 @@ export default function ServicesPage() {
         'name': 'Project Management',
         'provider': {
           '@type': 'Organization',
-          'name': 'JilanSoft',
+          'name': 'Jilansoft',
           'url': 'https://jilansoft.com/'
         },
         'serviceType': 'Project Management',
@@ -137,8 +137,8 @@ export default function ServicesPage() {
   return (
     <>
       <SEO
-        title="Services | Web Development, E-commerce & Business Software | JilanSoft"
-        description="JilanSoft provides web development, e-commerce development, ready-made business software, custom software development, website and software modification, business consultation, business analysis, and project management services."
+        title="Services | Web Development, E-commerce & Business Software | Jilansoft"
+        description="Jilansoft provides web development, e-commerce development, ready-made business software, custom software development, website and software modification, business consultation, business analysis, and project management services."
         canonical="/services"
         jsonLd={servicesJsonLd}
       />
