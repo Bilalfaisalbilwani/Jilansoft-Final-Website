@@ -159,7 +159,7 @@ export default function Footer() {
               </a> */}
 
               <a
-                href=""
+                href="https://www.linkedin.com/company/jilansoftofficial"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Connect with us on LinkedIn"
@@ -206,7 +206,7 @@ export default function Footer() {
 
               <li>
                 <Link
-                  to="/services#work"
+                  to="/contact"
                   className="hover:text-white hover:translate-x-1 flex items-center gap-1.5 transition-all duration-200"
                 >
                   Custom Software
@@ -337,7 +337,7 @@ export default function Footer() {
                 </a>
               </div>
 
-              <div>
+              {/* <div>
                 <span className="block font-semibold text-white mb-1 flex items-center gap-1.5">
                   <Clock size={14} className="text-blue-500" />
                   Business Hours
@@ -348,7 +348,7 @@ export default function Footer() {
                   <br />
                   12:30 PM – 7:30 PM
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

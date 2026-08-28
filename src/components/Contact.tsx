@@ -317,7 +317,7 @@ const handleSubmit = async (e: React.FormEvent) => {
               </a>
 
               {/* Business Hours */}
-              <div
+              {/* <div
                 className={`flex items-start gap-4 p-4 rounded-xl border transition-all duration-300 ${theme === 'light'
                   ? 'border-slate-200 bg-slate-50'
                   : 'border-white/5 bg-[#111128]/40'
@@ -342,7 +342,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                     12:30 PM – 7:30 PM
                   </div>
                 </div>
-              </div>
+              </div> */}
 
             </div>
           </div>
