@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useTheme } from '../components/ThemeContext';
 import project1 from '../assets/project1.png';
 import project2 from '../assets/project2.png';
+import project3 from '../assets/project3.png';
 
 import {
   Code2,
@@ -43,6 +44,16 @@ export const portfolioProjects: PortfolioProject[] = [
       'A modern restaurant website featuring table reservations, a digital menu with dietary filters, image gallery, customer testimonials, chef profile, smooth animations, and instant booking feedback.',
     liveUrl: 'https://foodora-cafe.vercel.app/',
     image: project2,
+    
+  },
+  {
+    id: 'shoes-website',
+    name: 'Shoes Website',
+    category: 'E-commerce Website',
+    description:
+      'Shoes  website built with React, Tailwind CSS and other technologies, this is an e-commerce website concept created as a showcase.',
+    liveUrl: 'https://shoes-ecommerce-website-eight.vercel.app/',
+    image: project3,
     
   },
 ];
